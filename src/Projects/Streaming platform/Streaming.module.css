@@ -1,0 +1,76 @@
+.image1 {
+    display: block;
+    width: auto;
+    /* Fit image to container's width */
+    height: auto;
+    max-width: 1140px; /*1440*/
+    max-height: 522px; /*822*/
+    object-fit:fill;
+    margin: 0 auto;
+}
+
+.image2 {
+    width: 550px;
+    height: 300px;
+}
+
+.pics {
+    padding: 10px;
+    background-color: white;
+    width: min-content;
+    height: min-content;
+    border: solid 0;
+    border-radius: 20px;
+}
+
+.pics-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.fm-main {
+    background-color: #E2F1E7;
+}
+
+.fm-secondary {
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    /* Activate Flexbox to align items */
+    justify-content: space-between;
+    /* Spread content across the row */
+    /* align-items: center; */
+    gap: 20px;
+    /* Space between the image and description */
+}
+
+.description {
+    flex: 2;
+    
+}
+
+.description p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+.more-desc p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.cover-image-sector {
+    flex: 1;
+    
+    margin-left: auto;
+    /* Push the image to the right */
+    /* position: absolute; */
+    right: 0;
+    /* Align to the right edge of the content container */
+    top: 0;
+    /* Ensure the image is vertically aligned with the text */
+}
