@@ -1,0 +1,17 @@
+.first-para {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.iconSector {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+}

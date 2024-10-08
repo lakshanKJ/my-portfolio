@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        Lakshan Jayathilake
+        Software Developer
       </div>
 
       {/* Navigation Links */}

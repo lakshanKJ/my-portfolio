@@ -1,0 +1,44 @@
+
+
+#desc {
+    margin-top: 100px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#desc-in {
+    margin-left: 100px;
+}
+
+#h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+#para {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+#home-hr {
+    width: 80%;
+    margin: 10px 0 0 0;
+}
+
+#explore {
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 20px 0 0;
+
+}
+
+#explore:hover {
+    background-color: white;
+    color: black;
+}

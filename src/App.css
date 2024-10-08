@@ -1,3 +1,43 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.back-div {
+  background-image: url('./assets/images/egorkomarov-13003485.jpg');
+  width: 100%;
+  height: 100vh;
+  /* Use 100vh for full-screen height */
+  background-size: cover;
+  /* Change to cover to fill the screen */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#about {
+  padding: 50px 50px 0 50px;
+}
+#projects {
+  padding: 50px 50px 0 50px;
+}
+#contact {
+  padding: 50px 50px 50px 50px;
+}
+
+/* Responsive styles for different screen sizes */
+@media (max-width: 768px) {
+  .back-div {
+    height: 70vh;
+    /* Reduce height for smaller screens */
+    background-size: cover;
+    /* Adjust the background size */
+  }
+}
+
+@media (max-width: 480px) {
+  .back-div {
+    height: 50vh;
+    /* Further reduce height for very small screens */
+    background-size: contain;
+    /* Use `contain` to fit the image */
+  }
+}

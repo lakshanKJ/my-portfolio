@@ -4,30 +4,33 @@ import Home from './Home/Home';
 import Navbar from './Navbar/Navbar'
 import FM from './Projects/Foetal-Movement-Detection/FM';
 import StreamPlatform from './Projects/Streaming platform/Streaming';
+import About from './About/About';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* <div className="App"> */}
-        <Navbar /> {/* Render the Navbar */}
+        
 
 
       </header>
 
-      <div style={{ marginTop: '35px' }}>
-
-        <div id="home" style={{ padding: '20px', textAlign: 'center' }}>
-          <h1>Welcome to My Portfolio</h1>
-          <p>Explore my projects, skills, and get in touch!</p>
+      <div style={{}}>
+        
+<div className='back-div'>
+<Navbar />
+        <div id="home" style={{}} className='home'>
           <Home></Home>
         </div>
-        {/* Sections corresponding to navbar links */}
-        <div id="about" style={{ padding: '50px', backgroundColor: '#E2F1E7' }}>
-          <h2 style={{ color: '#387478' }}>About Me</h2>
-          <p>This is the About section.</p>
         </div>
-        <div id="projects" style={{ padding: '50px' }}>
+        {/* Sections corresponding to navbar links */}
+        <div id="about" style={{}}>
+          <h2 style={{ color: '#387478' }}>About Me</h2>
+          <About></About>
+        </div>
+        <div id="projects" style={{}}>
           <h2 style={{ color: '#387478' }}>Projects</h2>
           <p>This is the Projects section.</p>
           <br></br>
@@ -35,9 +38,9 @@ function App() {
           <br></br>
           <StreamPlatform></StreamPlatform>
         </div>
-        <div id="contact" style={{ padding: '50px', backgroundColor: '#E2F1E7' }}>
+        <div id="contact" style={{}}>
           <h2 style={{ color: '#387478' }}>Contact</h2>
-          <p>This is the Contact section.</p>
+          <Contact></Contact>
         </div>
       </div>
     </div>
