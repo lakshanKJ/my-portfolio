@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16' # Specify the Node.js version you are using
+          node-version: '18' # Specify the Node.js version you are using
 
       - name: Install dependencies
         run: npm install
@@ -24,11 +24,18 @@ jobs:
       - name: Build the React app
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./build
+
+      - name: Deploy with gh-pages
+        run: |
+            git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Cache node modules
         uses: actions/cache@v2
