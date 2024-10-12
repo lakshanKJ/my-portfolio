@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.7606e5f3.css",
+    "main.js": "/my-portfolio/static/js/main.e7e932d5.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/portable-device.jpg": "/my-portfolio/static/media/portable-device.2a3c79cfd137f6c4580c.jpg",
+    "static/media/egorkomarov-13003485.jpg": "/my-portfolio/static/media/egorkomarov-13003485.295cf6b073da1020a98c.jpg",
+    "static/media/stream3.png": "/my-portfolio/static/media/stream3.bb45637b9a576b673770.png",
+    "static/media/stream1.png": "/my-portfolio/static/media/stream1.aca5969c425d3f4cf7be.png",
+    "static/media/stream2.png": "/my-portfolio/static/media/stream2.d943dd047b29d5b61d43.png",
+    "static/media/FYP_presentation.png": "/my-portfolio/static/media/FYP_presentation.c2980b9f5fc0e78c0b06.png",
+    "static/media/mom-sleeping.webp": "/my-portfolio/static/media/mom-sleeping.5210de29de81ddd96697.webp",
+    "static/media/python.png": "/my-portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/atom.png": "/my-portfolio/static/media/atom.17e5cb984343d1346ebd.png",
+    "static/media/wearable-device.jpg": "/my-portfolio/static/media/wearable-device.0ff8d911c3a1512eec26.jpg",
+    "static/media/java.png": "/my-portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/gitlab.png": "/my-portfolio/static/media/gitlab.6d4cbc2644f1b09d8ac4.png",
+    "static/media/github.png": "/my-portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/html-5.png": "/my-portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css-3.png": "/my-portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/my-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/icons8-mysql.svg": "/my-portfolio/static/media/icons8-mysql.09f9d6f770acc8cc71ae639d701b40d1.svg",
+    "static/media/icons8-aws.svg": "/my-portfolio/static/media/icons8-aws.86e03913c44251b14641df75d76e2da6.svg",
+    "static/media/icons8-nodejs.svg": "/my-portfolio/static/media/icons8-nodejs.697e6461019e4b51f914268ece308f10.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/icons8-spring-boot.svg": "/my-portfolio/static/media/icons8-spring-boot.dfae4ae360fbd1fee9318dc090f90197.svg",
+    "static/media/icons8-angular.svg": "/my-portfolio/static/media/icons8-angular.4dfa361ad47f36667dc92aa85f11a5cf.svg",
+    "main.7606e5f3.css.map": "/my-portfolio/static/css/main.7606e5f3.css.map",
+    "main.e7e932d5.js.map": "/my-portfolio/static/js/main.e7e932d5.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7606e5f3.css",
+    "static/js/main.e7e932d5.js"
+  ]
+}
