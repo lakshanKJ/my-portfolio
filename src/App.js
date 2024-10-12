@@ -14,18 +14,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <div className="App"> */}
-        
-
-
       </header>
 
       <div style={{}}>
-        
-<div className='back-div'>
-<Navbar />
-        <div id="home" style={{}} className='home'>
-          <Home></Home>
-        </div>
+
+        <div className='back-div'>
+          <Navbar />
+          <div id="home" style={{}} className='home'>
+            <Home></Home>
+          </div>
         </div>
         {/* Sections corresponding to navbar links */}
         <div id="about" style={{}}>
