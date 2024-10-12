@@ -2,7 +2,7 @@ import stream1 from "../../assets/images/stream1.png";
 import stream2 from "../../assets/images/stream2.png";
 import stream3 from "../../assets/images/stream3.png";
 import styles from './Streaming.module.css';
-import React from "react";
+
 
 function StreamPlatform() {
     return (
