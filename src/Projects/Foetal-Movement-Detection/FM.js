@@ -6,7 +6,7 @@ import './FM.css';
 
 function FM() {
     return (
-        <div class="fm-main">
+        <div className="fm-main">
             <div className='fm-secondary'>
                 <h2>Foetal Movement Detection System</h2>
 
@@ -15,12 +15,13 @@ function FM() {
                     <div className='description'>
                         <p><strong>Technologies - </strong>IoT | Python | Arduino | Android | MySQL</p>
                         <p><strong>Key features - </strong>
-                            <ul>
-                                <li>Foetal movement counting
-                                </li>
-                                <li>Foetal count Analysing</li>
-                                <li>Store history</li>
-                            </ul>
+                            <br></br>
+                            - Foetal movement counting
+                            <br></br>
+                            - Foetal count Analysing
+                            <br></br>
+                            - Store history
+
 
                         </p>
                         <p>Aim of this project was to provide a revolutionary foetal kick counting system that allows continuous and accurate monitoring of foetal movements that can be used in day to day, with the goal of improving prenatal care and foetal well being.</p>
@@ -30,7 +31,7 @@ function FM() {
 
                     </div>
                     <div className='cover-image-sector'>
-                        <img src={momSleeping} alt="mom sleeping" class="image1"></img>
+                        <img src={momSleeping} alt="mom sleeping" className="image1"></img>
                     </div>
                 </div>
                 <div className='more-desc'>
@@ -44,13 +45,13 @@ function FM() {
                 </div>
                 <div className='pics-main'>
                     <div className='pics'>
-                        <img src={wearableDevice} alt="wearable device" class="image2"></img>
+                        <img src={wearableDevice} alt="wearable device" className="image2"></img>
                     </div>
                     <div className='pics'>
-                        <img src={portableDevice} alt="portable device" class="image2"></img>
+                        <img src={portableDevice} alt="portable device" className="image2"></img>
                     </div>
                     <div className='pics'>
-                        <img src={mobileUI} alt="Mobile UI" class="image3"></img>
+                        <img src={mobileUI} alt="Mobile UI" className="image3"></img>
                     </div>
                 </div>
             </div>

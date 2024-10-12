@@ -2,7 +2,7 @@ import './Home.css';
 
 function Home() {
     return (
-        <div class="main">
+        <div className="main">
             <div id='desc'>
                 <div id='desc-in'>
                     <h1 id='h1'>Hi, my name is Lakshan Jayathilake</h1>
