@@ -13,6 +13,8 @@ import js from '../../src/assets/images/icons/js.png';
 import react from '../../src/assets/images/icons/atom.png';
 import python from '../../src/assets/images/icons/python.png';
 import angular from '../../src/assets/images/icons/icons8-angular.svg';
+import React from 'react';
+
 
 function About() {
     return (

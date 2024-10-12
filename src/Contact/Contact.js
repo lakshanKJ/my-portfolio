@@ -1,4 +1,6 @@
 import styles from './Contact.module.css';
+import React from 'react';
+
 
 function Contact() {
     return(

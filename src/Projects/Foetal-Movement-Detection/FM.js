@@ -3,6 +3,8 @@ import portableDevice from '../../assets/images/portable-device.jpg'
 import mobileUI from '../../assets/images/FYP_presentation.png'
 import momSleeping from '../../assets/images/mom-sleeping.webp'
 import './FM.css';
+import React from 'react';
+
 
 function FM() {
     return (

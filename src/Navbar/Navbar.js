@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import React from 'react';
+
 
 function Navbar() {
     // State to handle the toggle menu for mobile view

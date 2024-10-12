@@ -6,6 +6,8 @@ import FM from './Projects/Foetal-Movement-Detection/FM';
 import StreamPlatform from './Projects/Streaming platform/Streaming';
 import About from './About/About';
 import Contact from './Contact/Contact';
+import React from 'react';
+
 
 function App() {
   return (
