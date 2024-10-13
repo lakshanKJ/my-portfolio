@@ -5,7 +5,7 @@ test('renders About Me, Projects, and Contact sections', () => {
   render(<App />);
 
    // Check if the "About Me" heading is in the document
-   const aboutElement = screen.getByText(/About Me/i);
+   const aboutElement = screen.getByRole('heading', {name: /About Me/i});
    expect(aboutElement).toBeInTheDocument();
    
    // Check if the "Projects" heading is specifically in the document
