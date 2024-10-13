@@ -7,6 +7,7 @@ import StreamPlatform from './Projects/Streaming platform/Streaming';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import React from 'react';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -31,7 +32,6 @@ function App() {
         </div>
         <div id="projects" style={{}}>
           <h2 style={{ color: '#387478' }}>Projects</h2>
-          <p>This is the Projects section.</p>
           <br></br>
           <FM></FM>
           <br></br>
@@ -41,6 +41,7 @@ function App() {
           <h2 style={{ color: '#387478' }}>Contact</h2>
           <Contact></Contact>
         </div>
+        <Footer></Footer>
       </div>
     </div>
   );

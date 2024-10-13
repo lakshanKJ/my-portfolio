@@ -1,0 +1,21 @@
+/* styles.css */
+.contact-grid {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+    gap: 10px; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-icon {
+    margin-right: 10px; /* Space between icon and content */
+    color: #387478; /* Icon color (optional) */
+}
+
+.contact-grid a {
+    color: #387478; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-grid a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

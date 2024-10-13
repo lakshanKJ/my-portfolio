@@ -7,11 +7,13 @@
     max-height: 522px; /*822*/
     object-fit:fill;
     margin: 0 auto;
+    border: 1px solid silver;
 }
 
 .image2 {
     width: 550px;
     height: 300px;
+    border: 1px solid silver;
 }
 
 .pics {
@@ -32,7 +34,7 @@
 }
 
 .fm-main {
-    background-color: #E2F1E7;
+    background-color: #eaf0ec;
 }
 
 .fm-secondary {

@@ -20,7 +20,7 @@ function About() {
     return (
         <div className={styles.main}>
             <p className={styles['first-para']}>I am a passionate and dedicated software engineer
-                with a B.Eng in Software Engineering from the
+                with a B.Eng in Software Engineering degree from the
                 University of Westminster. With hands-on
                 experience in the industry, I have developed
                 strong expertise in designing, developing, and
